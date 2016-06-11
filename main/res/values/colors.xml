@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="LoginPage_ET">#06243a</color>
+    <color name="cMark_blue">#0f75bd</color>
+    <color name="cMark_orange">#f36523</color>
+
+    <color name="abs_white">#ffffff</color>
+
+
+    <color name="left_slidedown_text">#ffffff</color>
+    <color name="left_slidedown_edittext">#ffffff</color>
+    <color name="markRVtext">#f7880a</color>
+    <color name="settingsRVtext">#ffffff</color>
+    <color name="settingsRVlabelBack">#9f9f9f</color>
+
+    <color name="nav_mode_shape">#ffffff</color>
+
+
+
+</resources>

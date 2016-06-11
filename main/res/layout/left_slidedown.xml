@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/left_slidedown"
+    android:background="@drawable/left_slidedown_540">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="140sp"
+            android:layout_height="280sp"
+            android:id="@+id/courseSettingsRV"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/left_slidedown_applyCourse" />
+
+        <Button
+            android:id="@+id/left_slidedown_B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:width="120sp"
+            android:height="60sp"
+            android:text="wind\n361"
+            android:textColor="@color/left_slidedown_text"
+            android:background="@android:color/transparent"/>
+
+
+
+        <Button
+            android:id="@+id/left_slidedown_applyCourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Apply Course"
+            android:padding="15sp"
+            android:layout_above="@+id/left_slidedown_B"
+            android:layout_centerHorizontal="true" />
+
+    <!--
+        <GridLayout
+            android:id="@+id/left_slidedown_gridlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_above="@id/left_slidedown_applyCourse"
+    >
+            <TextView
+                android:text="Wind\nDirection"
+                android:textSize="@dimen/left_slidedown_textviews_size"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_marginBottom="@dimen/left_slidedown_textviews_margin"
+                android:layout_marginRight="@dimen/left_slidedown_textviews_margin"
+                android:textColor="@color/left_slidedown_text"/>
+            <EditText
+                android:id="@+id/wind_dir_edittext"
+                android:text=""
+                android:textSize="@dimen/left_slidedown_textviews_size"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_marginBottom="@dimen/left_slidedown_textviews_margin"
+                android:textColor="@color/left_slidedown_edittext"
+                android:inputType="number"
+                android:minWidth="@dimen/left_slidedown_textviews_minWidth"/>
+
+
+            <TextView
+                android:text="Distance\nTo Mark 1"
+                android:textSize="@dimen/left_slidedown_textviews_size"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_marginBottom="@dimen/left_slidedown_textviews_margin"
+                android:textColor="@color/left_slidedown_text"
+                android:layout_marginRight="@dimen/left_slidedown_textviews_margin"/>
+            <EditText
+                android:id="@+id/dist2m1_editext"
+                android:text=""
+                android:textSize="@dimen/left_slidedown_textviews_size"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_marginBottom="@dimen/left_slidedown_textviews_margin"
+                android:textColor="@color/left_slidedown_edittext"
+                android:inputType="numberDecimal"
+                android:minWidth="@dimen/left_slidedown_textviews_minWidth"/>
+        </GridLayout>
+
+-->
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="radial_design.mapsfoxtrot.MLActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mark_layers_mapboxMapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:access_token="pk.eyJ1IjoicmFkaWFsZGVzaWduIiwiYSI6ImNpZ2M0b2xsdzJnZ3d0b205eG51bnloNmUifQ.DexPjWEppvDEQhlad3Q2lA"
+        mapbox:center_latitude="32.85"
+        mapbox:center_longitude="34.99"
+        mapbox:style_url="mapbox://styles/mapbox/streets-v9"
+        mapbox:zoom="13" />
+
+    <ImageView
+        android:id="@+id/mark_layers_windIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/mark_layers_mapboxMapView"
+        android:layout_alignTop="@id/mark_layers_mapboxMapView"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="140dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wind_indicaror_icon" />
+
+    <ImageView
+        android:id="@+id/set_my_loc_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/mark_layers_mapboxMapView"
+        android:layout_alignTop="@id/mark_layers_mapboxMapView"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="210dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="45dp"
+        android:maxWidth="45dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/set_my_loc_center" />
+
+    <include
+        layout="@layout/left_slidedown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        layout="@layout/right_slidedown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        layout="@layout/nav_mode_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

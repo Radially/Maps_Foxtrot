@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/right_slidedown"
+    android:background="@drawable/right_slidedown_540">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="140sp"
+        android:layout_height="330sp"
+        android:id="@+id/marksRV"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/right_slidedown_B" />
+
+    <Button
+        android:id="@+id/right_slidedown_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:width="120sp"
+        android:height="60sp"
+        android:text="Mark\n 1"
+        android:textColor="#f7880a"
+        android:background="@android:color/transparent"/>
+</RelativeLayout>

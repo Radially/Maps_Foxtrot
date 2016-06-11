@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Maps Foxtrot</string>
+    <string name="LoginPage_UserNameTV">User Name</string>
+    <string name="LoginPage_UserNameET_hint">Enter here</string>
+    <string name="LoginPage_PasswordTV">Password</string>
+    <string name="LoginPage_PasswordET_hint">Enter here</string>
+    <string name="ROfficerLoginButton">Race Officer Login</string>
+
+    <string name="MLLoginPage_UserNameTV">Your race officers user Name</string>
+    <string name="MLLoginPage_UserNameET_hint">Enter here</string>
+    <string name="MLLoginPage_PasswordTV">Mark layers pool password</string>
+    <string name="MLLoginPage_PasswordET_hint">Enter here</string>
+    <string name="MLLoginButton">Mark layer Login</string>
+
+    <string name="com.mapbox.mapboxsdk.accessToken" translatable="false">pk.eyJ1IjoicmFkaWFsZGVzaWduIiwiYSI6ImNpZzExbnJ5ZDAwM2t2bmx3MXN1N2ZiZWcifQ.2Y1S_JGvAFeHkTm8K5Obhg</string>
+</resources>

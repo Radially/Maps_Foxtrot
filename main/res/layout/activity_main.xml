@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="20dp"
+    android:background="@color/abs_white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/LoginPageLogo"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_centerHorizontal="true"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:src="@drawable/logo2_300" />
+
+    <TableLayout
+        android:id="@+id/LoginPageTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginPageLogo"
+        android:layout_centerHorizontal="true">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LoginPage_UserNameTV"
+                android:textSize="@dimen/LoginPage_UserNameTV" />
+
+            <EditText
+                android:id="@+id/LoginPageUserNameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/LoginPage_UserNameET_hint"
+                android:text="demo"
+                android:textColor="@color/LoginPage_ET"
+                android:textSize="@dimen/LoginPage_UserNameET_hint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LoginPage_PasswordTV"
+                android:textSize="@dimen/LoginPage_UserNameTV" />
+
+            <EditText
+                android:id="@+id/LoginPagePasswordET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/LoginPage_PasswordET_hint"
+                android:text="demo"
+                android:textColor="@color/LoginPage_ET"
+                android:textSize="@dimen/LoginPage_UserNameET_hint" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/ROfficerLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LoginPageTable"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ROfficerLoginButton"
+        android:textColor="@color/LoginPage_ET"
+        android:textSize="@dimen/ROfficerLoginButton"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/blue_line"
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ROfficerLoginButton"
+        android:src="@color/cMark_blue" />
+
+    <TableLayout
+        android:id="@+id/MLLoginPageTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blue_line"
+        android:layout_centerHorizontal="true">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MLLoginPage_UserNameTV"
+                android:textSize="@dimen/LoginPage_UserNameTV" />
+
+            <EditText
+                android:id="@+id/MLLoginPageUserNameET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="demo"
+                android:hint="@string/MLLoginPage_UserNameET_hint"
+                android:textColor="@color/LoginPage_ET"
+                android:textSize="@dimen/LoginPage_UserNameET_hint" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/MLLoginPage_PasswordTV"
+                android:textSize="@dimen/LoginPage_UserNameTV" />
+
+            <EditText
+                android:id="@+id/MLLoginPagePasswordET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="demo"
+                android:hint="@string/MLLoginPage_PasswordET_hint"
+                android:textColor="@color/LoginPage_ET"
+                android:textSize="@dimen/LoginPage_UserNameET_hint" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/MLLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MLLoginPageTable"
+        android:layout_centerHorizontal="true"
+        android:text="@string/MLLoginButton"
+        android:textColor="@color/LoginPage_ET"
+        android:textSize="@dimen/ROfficerLoginButton"
+        android:textStyle="bold" />
+</RelativeLayout>

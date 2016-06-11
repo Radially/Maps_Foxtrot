@@ -1,0 +1,28 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="LoginPage_UserNameTV">18sp</dimen>
+    <dimen name="LoginPage_UserNameET_hint">20sp</dimen>
+    <dimen name="ROfficerLoginButton">20sp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="left_slidedown_textviews_size">20sp</dimen>
+
+    <dimen name="left_slidedown_textviews_margin">10sp</dimen>
+    <dimen name="left_slidedown_textviews_padding">10sp</dimen>
+
+    <dimen name="left_slidedown_textviews_minWidth">100sp</dimen>
+
+
+    <dimen name="mark_RV_textview_margin">15sp</dimen>
+    <dimen name="mark_RV_textview_textSize">24sp</dimen>
+
+    <dimen name="settings_RV_textview_textSize">24sp</dimen>
+    <dimen name="nav_mode_main_text">37sp</dimen>
+    <dimen name="nav_mode_secondary_text">15sp</dimen>
+
+    <dimen name="nav_mode_blue_stroke">7dp</dimen>
+    <dimen name="anchor_at_nav_mode">60dp</dimen>
+
+</resources>
